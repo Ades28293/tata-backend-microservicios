@@ -1,0 +1,32 @@
+# Ejercicio Técnico Backend Java – Microservicios
+
+Solución del ejercicio técnico solicitado, implementada con arquitectura de microservicios.
+
+## Arquitectura
+- ms-clientes: gestión de clientes y personas
+- ms-cuentas: gestión de cuentas, movimientos y reportes
+- Comunicación asíncrona mediante RabbitMQ
+- Base de datos PostgreSQL
+- Contenedores Docker
+
+## Tecnologías
+- Java 17
+- Spring Boot
+- Spring Data JPA
+- PostgreSQL
+- RabbitMQ
+- Docker / Docker Compose
+
+## Cómo ejecutar el proyecto
+
+### Requisitos
+- Docker
+- Docker Compose
+
+### Pasos
+1. Clonar el repositorio o descomprimir el ZIP
+2. Ubicarse en la carpeta raíz
+3. Ejecutar:
+
+```bash
+docker compose up --build
